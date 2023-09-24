@@ -1,0 +1,44 @@
+.event {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    &__box {
+        padding: 15px;
+        width: 900px;
+        height: 700px;
+        background-color: rgb(180, 215, 238);
+        box-shadow: 1px 1px 5px rgb(65, 70, 73);
+    }
+    &__block {
+        margin: 10px 0;
+        padding: 5px;
+        background-color: #fff;
+    }
+    &__add {
+        background-color: #fff;
+        width: 100%;
+        display: block;
+    }
+    &__colors {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__color-item {
+        width: 70px;
+        height: 70px;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+}
+
+.hidden {
+    display: none;
+}
